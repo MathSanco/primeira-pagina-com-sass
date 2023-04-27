@@ -1,0 +1,30 @@
+@import '../abstract/variaveis';
+
+#secao-final{
+    text-align: center;
+    
+
+    img{
+        margin-top: 20px;
+    }
+
+    h3{
+        font-size: $tamanho-do-texto /1.5;
+        font-weight: 300;
+        color: $cor-primaria;
+    }
+
+    h4{
+        font-size: $tamanho-do-texto / 2;
+        font-weight: 300;
+        color: $cor-secundaria;
+    }
+
+    p{
+        max-width: 500px;
+        margin: 10px auto 10px;
+        letter-spacing: 1px;
+        line-height: 1rem;
+
+    }
+}
